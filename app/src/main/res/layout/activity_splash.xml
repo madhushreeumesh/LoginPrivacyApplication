@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/main">
+
+    <LinearLayout
+        android:id="@+id/launcher_logo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:animateLayoutChanges="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logina"
+            android:paddingLeft="@dimen/dimen_200dp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textview"
+            android:text="Login Privacy"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

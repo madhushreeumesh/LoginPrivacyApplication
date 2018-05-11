@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logback"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginlayout">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_states"
+        android:textSize="25dp"
+        android:id="@+id/login"
+        android:textColor="@color/colorAccent"
+        android:text="Login"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerlayout"
+        android:layout_below="@id/loginlayout"
+        android:paddingTop="@dimen/dimen_20dp">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:id="@+id/register"
+        android:background="@drawable/button_states"
+        android:text="Register"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adminlayout"
+        android:layout_below="@id/registerlayout"
+        android:paddingTop="@dimen/dimen_20dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/button_states"
+        android:textSize="25dp"
+        android:id="@+id/admin"
+        android:text="Admin"/>
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="login" type="id">login</item>
+    <item name="register" type="id">register</item>
+    <item name="admin" type="id">admin</item>
+    <item name="toolbar" type="id">toolbar</item>
+</resources>
